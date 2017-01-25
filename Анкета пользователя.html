@@ -3,33 +3,74 @@
 <META http-equiv="Conten-Type" content="text/html;charset=windows-1251">
 <TITLE>Анкета пользователя</TITLE>
 </HEAD>
-<BODY>
+<BODY bgcolor="#d5d5d5">
+  <H2 align="center">Анкета пользователя</H2>
   <FORM>
-    <P>Пожалуйста, введите ваши данные:</P>
+    <P>Ответьте, пожалуйста, на вопросы:</P>
     <TABLE>
       <TR>
-        <TD>Имя:</TD>
-        <TD><INPUT name="name" type=text size=35></TD>
-      </TR>
-      <TR>
-        <TD>Фамилия:</TD>
+        <TD>Ваша фамилия:</TD>
         <TD><INPUT name="surname" type=text size=35></TD>
       </TR>
       <TR>
-        <TD>Улица:</TD>
+        <TD>Ваше имя:</TD>
         <TD><INPUT name="name" type=text size=35></TD>
       </TR>
       <TR>
-        <TD>Город:</TD>
-        <TD><INPUT name="city" type= text name=20 maxlength=20></TD>
+        <TD>Ваше отчество:</TD>
+        <TD><INPUT name="lastname" type=text size=35></TD>
+      </TR>
+    </TABLE>
+    <HR color="#AAAAAA" size=1 width=99% align=center>
+    <P>Ваш пол:</P>
+    <INPUT type="radio" name="sex" value="man"><I>Мужчина</I><BR>
+    <INPUT type="radio" name="sex" value="woman"><I>Женщина</I><BR>
+    <HR color="#AAAAAA" size=1 width=99% align=center>
+    <P>Семейное положение:</P>
+    <INPUT type="radio" name="family" value="married"><I>Женат/замужем</I><BR>
+    <INPUT type="radio" name="family" value="single"><I>Холост/не замужем</I><BR>
+    <P>Количество детей <INPUT name="surname" type=text size=10></P>
+    <HR color="#AAAAAA" size=1 width=99% align=center>
+    <TABLE>
+      <P>Место жительства:</P>
+      <TR>
+        <TD>Страна: </TD>
+        <TD>
+          <SELECT name="country">
+            <OPTION selected>Россия</OPTION>
+            <OPTION>Украина</OPTION>
+            <OPTION>Белоруссия</OPTION>
+            <OPTION>Казахстан</OPTION>
+            <OPTION>Монголия</OPTION>
+          </SELECT>
+        </TD>
+      </TR>
+      <TR>
+        <TD>Другая</TD>
+        <TD><INPUT name="othercountry" type=text size=35></TD>
       </TR>
       <TR>
         <TD>Индекс:</TD>
-        <TD><INPUT name="zip" size=6 maxlength=6 value=”999999”></TD>
+        <TD><INPUT name="index" type=text size=6></TD>
+      </TR>
+      <TR>
+        <TD>Город:</TD>
+        <TD><INPUT name="city" type=text size=30></TD>
+      </TR>
+      <TR>
+        <TD>Улица:</TD>
+        <TD><INPUT name="street" type=text size=40></TD>
+      </TR>
+      <TR>
+        <TD>Дом:</TD>
+        <TD><INPUT name="house" type=text size=4> Квартира:<INPUT name="flat" type=text size=4></TD>
       </TR>
     </TABLE>
-    <INPUT type=submit value="Отправить данные"></P>
-    <INPUT type=reset value="Очистить поля">
+    <HR color="#AAAAAA" size=1 width=99% align=center>
+    <P>Электронный адрес: <INPUT name="email" type=text size=50></P>
+    <HR color="#AAAAAA" size=1 width=99% align=center>
+    <INPUT type=submit value="Подача запроса">
+    <INPUT type=reset value="Сброс">
   </FORM>
 <BODY>
 </HTML>
