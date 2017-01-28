@@ -4,18 +4,97 @@
   <TITLE>Анкета</TITLE>
   <link rel=stylesheet type=text/css href="style.css">
 </HEAD>
-<BODY class=withpicture>
-  <DIV class=mainHeader>
-    <DIV class=mainHeaderCell>
-      Здравствуйте!<BR>
-      Вы попали на личную страничку<BR>
-      Оксаны Беловой!<BR>
-      <A class=enterLink href="main.html">
-        Войти
-      </A>
+<BODY class=withPicture>
+    <DIV class=table>
+      <DIV class=cell>
+        <DIV class=contentHeader>Анкета</DIV>
+        <FORM>
+        <TABLE>
+          <TR>
+            <TD>
+              <P class=normalText>Ваша фамилия: <P>
+            </TD>
+            <TD>
+              <INPUT name="surname" type=text size=35>
+            </TD>
+          </TR>
+          <TR>
+            <TD>
+              <P class=normalText>Ваше имя: <P>
+            </TD>
+            <TD>
+              <INPUT name="name" type=text size=35>
+            </TD>
+          </TR>
+          <TR>
+            <TD>
+              <P class=normalText>Электронный адрес: <P>
+            </TD>
+            <TD>
+              <INPUT name="email" type=text size=50>
+            </TD>
+          </TR>
+          <TR>
+            <TD>
+              <P class=normalText>Пожелания по сайту: <P>
+            </TD>
+            <TD>
+              <TEXTAREA name="feedback" cols=64 rows=6>Здесь  введите  свои пожелания по сайту</TEXTAREA>
+            </TD>
+          </TR>
+          <TR>
+            <TD>
+              <INPUT type=submit value="Отправить">
+              <INPUT type=reset value="Сброс">
+            </TD>
+          </TR>
+        </TABLE>
+        </FORM>
+        <HR class=content width=80%>
+        <HR class=content width=50%>
+      </DIV>
+    </DIV>
+</BODY>
+</HTML>
+
+
+<!-- <FORM>
+  <DIV class=table2>
+    <DIV class=cellInput>
+      <P class=normalText>Ваша фамилия: <P>
+    </DIV>
+    <DIV class=cellInput>
+      <INPUT name="surname" type=text size=35>
     </DIV>
   </DIV>
-
-
-<BODY>
-</HTML>
+  <DIV class=table2>
+    <DIV class=cellInput>
+      <P class=normalText>Ваше имя: <P>
+    </DIV>
+    <DIV class=cellInput>
+      <INPUT name="name" type=text size=35>
+    </DIV>
+  </DIV>
+  <DIV class=table2>
+    <DIV class=cellInput>
+      <P class=normalText>Электронный адрес: <P>
+    </DIV>
+    <DIV class=cellInput>
+      <INPUT name="email" type=text size=50>
+    </DIV>
+  </DIV>
+  <DIV class=table2>
+    <DIV class=cellInput>
+      <P class=normalText>Пожелания по сайту: <P>
+    </DIV>
+    <DIV class=cellInput>
+      <TEXTAREA name="feedback" cols=64 rows=6>Здесь  введите  свои пожелания по сайту</TEXTAREA>
+    </DIV>
+  </DIV>
+  <DIV class=table2>
+    <DIV class=cellInput>
+      <INPUT type=submit value="Отправить">
+      <INPUT type=reset value="Сброс">
+    </DIV>
+  </DIV>
+</FORM> -->
